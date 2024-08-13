@@ -29,6 +29,9 @@ GCZ (JDK15):
 -XX:+UseZGC
 ~~~
 
+# Command Line Inspector
+-When making changes to the command line options or when upgrading the JDK, the developers should validate each for correctness. Here is a handy online tool to validate: https://jacoline.dev/inspect 
+
 # REFERENCE
 - Oracle G1
   https://docs.oracle.com/en/java/javase/17/gctuning/garbage-first-g1-garbage-collector1.html#GUID-ED3AB6D3-FD9B-4447-9EDF-983ED2F7A573
