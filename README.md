@@ -30,7 +30,7 @@ GCZ (JDK15):
 ~~~
 
 # Command Line Inspector
--When making changes to the command line options or when upgrading the JDK, the developers should validate each for correctness. Here is a handy online tool to validate: https://jacoline.dev/inspect 
+- When making changes to the command line options or when upgrading the JDK, the developers should validate each for correctness. Here is a handy online tool to validate: https://jacoline.dev/inspect 
 
 # REFERENCE
 - Oracle G1
