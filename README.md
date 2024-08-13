@@ -1,4 +1,4 @@
-# java-heap
+# java-performance-tuning
 
 - This is a brief listing of issues faced when using java garbage collection. If your team has a large heap for a large application, there would be gains in peformance when tuning the garbage collection options. Also, note that if the applciation is running on jdk7 or prior, it is likely using the first set of collectors introduced in jdk1.2, whereas if the application is running with jdk1.9 or above, the G1 collector is the default. The G1 collector is available in the JDK7 update 4 and all later JDKs.
 
