@@ -9,7 +9,7 @@
   https://www.oracle.com/java/technologies/javase/gc-tuning-6.html#available_collectors.selecting
 
 # G1 Collector
-- Starting in JDK7 update 4, Oracle introduced the G1 (Garbage First) collector. The idea here being to setup your minimum and maximum heap sizes and let the garbage collection do its job. For starters, the configuration can be set something as below. Additionally, setup the Print logs. THe G1 collector introduces the concept of regions. Each Region can be from 1MB to 32MB.
+- Starting in JDK7 update 4, Oracle introduced the G1 (Garbage First) collector. The idea here being to setup your minimum and maximum heap sizes and let the garbage collection do its job. For starters, the configuration can be set something as below. Additionally, setup the Print logs. The G1 collector introduces the concept of regions. Each Region can be from 1MB to 32MB.
   ~~~
   java –Xmx1G –Xms1G –XX:+UseG1GC –XX:+PrintGCDetails –XX:+PrintGCTimeStamps JavaApp
   ~~~
