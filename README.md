@@ -13,7 +13,7 @@
   ~~~
   java –Xmx1G –Xms1G –XX:+UseG1GC –XX:+PrintGCDetails –XX:+PrintGCTimeStamps JavaApp
   ~~~
-# JDK17
+# JDK15+
   - Note that in jdk15, another option was introduced: ZGC collector. In some scenarios, it performs better than the G1 collector. Note also that with jdk17, both G1 and GCZ perform better than in previous versions of JDK. In general, larger heap sizes will benefit from G1 and GCZ.
 
 # ERRORS
